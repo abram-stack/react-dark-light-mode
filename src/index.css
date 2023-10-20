@@ -1,0 +1,53 @@
+html{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+}
+h1,h2,h3,p{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  padding: 1rem 4rem;
+}
+.navbar{
+  box-shadow: 0px 1px 4px grey;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container{
+  width: 70px;
+  height: 70px;
+}
+.logo-image{
+  width: 100%;
+}
+.toggler{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.toggler--slider{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 50px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 2rem;
+  background: #000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2px;
+}
+.toggler--slider-circle{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+}
